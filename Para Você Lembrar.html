@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entre Nós: Páginas para Você</title>
+  <style>
+    body {
+      background: #f9f5ec url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      font-family: 'Georgia', serif;
+      color: #3b2f2f;
+      padding: 2rem 2rem 2rem 4.5rem; /* espaço para encadernamento */
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      position: relative;
+      box-shadow: inset 0 0 60px #e0d6c0; /* sombra interna para profundidade */
+    }
+    h1, h2 {
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+    .section {
+      margin: 3rem 0;
+    }
+    a.pdf-link {
+      display: block;
+      max-width: 600px;
+      margin: 0.3rem auto;
+      font-family: 'Courier New', monospace;
+      color: #3b2f2f;
+      text-decoration: none;
+      border: 1px solid #ddd;
+      padding: 10px 15px;
+      background: #fff8e1;
+      border-radius: 8px;
+      box-shadow: 3px 3px 6px #cfc1a8;
+      transition: background-color 0.3s ease;
+    }
+    a.pdf-link:hover {
+      background-color: #f0e5c8;
+      text-decoration: underline;
+    }
+    strong.green-bold {
+      font-weight: bold;
+      color: #3b7a57;
+    }
+    .music-title {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+    .music-button {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .music-button a {
+      background-color: #e9d8a6;
+      color: #3b2f2f;
+      font-size: 1rem;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 2px 2px 5px #cfc1a8;
+      transition: background 0.3s ease;
+    }
+    .music-button a:hover {
+      background-color: #d4c28d;
+      text-decoration: none;
+    }
+
+    /* Faixa lateral simulando encadernamento */
+    .encadernamento {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 3.5rem;
+      height: 100vh;
+      background: linear-gradient(90deg, #d4c28d 0%, #bca86c 50%, #d4c28d 100%);
+      box-shadow:
+        inset 2px 0 5px rgba(0,0,0,0.15),
+        2px 0 5px rgba(0,0,0,0.1);
+      border-right: 1px solid #a8934f;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: #7a6f34;
+      letter-spacing: 0.05em;
+      user-select: none;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+    .encadernamento::before {
+      content: "";
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      left: 50%;
+      width: 2px;
+      background:
+        repeating-linear-gradient(
+          to bottom,
+          #7a6f34,
+          #7a6f34 2px,
+          transparent 2px,
+          transparent 6px
+        );
+      transform: translateX(-50%);
+      border-radius: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="encadernamento">ENTRE NÓS</div>
+
+  <h1>Para Você Lembrar</h1>
+  
+  <div class="section">
+    <h2>Páginas para Você</h2>
+    <a href="https://drive.google.com/file/d/1gssSF7aH_Tgn-5aGepPOTnwJUd4ettlW/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="pdf-link">A mente</a>
+    <a href="https://drive.google.com/file/d/1hpZ4QoSG4lbaz-JDCvbqEojnCIPti2r8/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="pdf-link">Imensidão</a>
+    <a href="https://drive.google.com/file/d/1S2gByB7C_dSu2iHFEZHP5JKApPPg6FFe/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="pdf-link">Olhos</a>
+  </div>
+
+  <div class="section">
+    <h2>Entre Nós</h2>
+    <p>
+      Esse presente é para que sempre que o utilizar, lembre: tem um espaço/lugar onde você pode ser você, do jeitinho que for — com os pensamentos soltos, palavras rápidas, dúvidas, as risadas fora de hora e até o silêncio.<br><br>
+      Entre nós, tudo isso tem espaço. Aqui não tem pressa, nem exigência. Só escuta, carinho e cuidado.<br><br>
+      Eu admiro muito quem você é. Você tem um coração gentil, daqueles que não se encontra em qualquer canto e -<strong class="green-bold">olhos</strong> - que falam mais do que qualquer palavra. É através deles que eu consigo te enxergar de verdade.<br><br>
+      Que essas páginas te façam lembrar que partilhar é bonito e que sempre que quiser dividir algo, vai ter alguém do outro lado com o coração aberto e um sorriso leve te esperando sem julgamentos.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Música</h2>
+
+    <div>
+      <p class="music-title">Rubel – Partilhar</p>
+      <div class="music-button">
+        <a href="https://www.youtube.com/watch?v=9BrzIHvVw_I" target="_blank" rel="noopener noreferrer">Ouvir no YouTube</a>
+      </div>
+    </div>
+
+    <div>
+      <p class="music-title">Anavitória – Lisboa</p>
+      <div class="music-button">
+        <a href="https://www.youtube.com/watch?v=TaTWqP_1k1w" target="_blank" rel="noopener noreferrer">Ouvir no YouTube</a>
+      </div>
+    </div>
+
+    <div>
+      <p class="music-title">Tash Sultana – Notion</p>
+      <div class="music-button">
+        <a href="https://www.youtube.com/watch?v=iAjUN4dh8Jo" target="_blank" rel="noopener noreferrer">Ouvir no YouTube</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
